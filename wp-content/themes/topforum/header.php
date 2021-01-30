@@ -5,7 +5,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title><?php
+        bloginfo('name'); echo " | "; bloginfo('description');
+    ?></title>
     <?php
         wp_head();
     ?>
@@ -57,9 +59,11 @@
                 <div class="logo__wrapper">
                     <ul class="logo__nav">
                         <li>
-                            <a href="#" class="logo__link">
-                                <img src="<?php echo bloginfo('template_url');?>/assets/img/logo.png" alt="logo" class="logo__img">
-                            </a>
+                            <div class="logo__link">
+                            <?php
+                                the_custom_logo();
+                            ?>
+                            </div>
                         </li>
                         <li>
                             <div class="logo__icon">

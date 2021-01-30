@@ -10,4 +10,5 @@
         wp_enqueue_script( 'tf_scripts', get_template_directory_uri() . '/assets/js/script.js', array(), true );
     };
 
+    add_theme_support( 'custom-logo' );
 ?>
