@@ -24,11 +24,11 @@
 
     <section class="promo">
         <div class="container">
-            <p class="promo__text">
-                <span>TOP forum</span> is an international business communication company. Our main idea is to take your business to the next level. To make this transformation happen you need to have a platform to meet hundreds of new clients and specialists,
-                become aware of new trends and soak up fresh ideas from best experts. It's what we call the forum impact. Face to face communication with like-minded professionals is a personal experience which leads your business to a great success.
-                TOP FORUM business conferences give you the unique opportunity to set new goals, open your new strategy and implement the campaigns that will give you superiority in your industry. Just invest in your future.
-            </p>
+            <div class="promo__text">
+                <?php
+                    the_field('about_descr');
+                ?>
+            </div>
             <div class="promo__wrapper">
                 <div class="promo__item">
                     <div class="promo__img-out">
