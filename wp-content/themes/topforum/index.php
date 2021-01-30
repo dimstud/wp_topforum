@@ -276,32 +276,6 @@
                 </ul>
                 <button class="carousel__btn-right">
                     <img src="<?php echo bloginfo('template_url');?>/assets/icons/arrow_right_dark.png" alt="arrow-left" class="carousel__btn-img">
-=======
-                    <img src="icons/arrow_left_dark.png" alt="arrow-left" class="carousel__btn-img">
-                </button>
-                <ul class="carousel__list">
-                    <li class="carousel__item">
-                        <img src="img/index/footer_1.png" alt="clients" class="carousel__img">
-                    </li>
-                    <li class="carousel__item">
-                        <img src="img/index/footer_2.png" alt="clients" class="carousel__img">
-                    </li>
-                    <li class="carousel__item">
-                        <img src="img/index/footer_3.png" alt="clients" class="carousel__img">
-                    </li>
-                    <li class="carousel__item">
-                        <img src="img/index/footer_4.png" alt="clients" class="carousel__img">
-                    </li>
-                    <li class="carousel__item">
-                        <img src="img/index/footer_5.png" alt="clients" class="carousel__img">
-                    </li>
-                    <li class="carousel__item">
-                        <img src="img/index/footer_6.png" alt="clients" class="carousel__img">
-                    </li>
-                </ul>
-                <button class="carousel__btn-right">
-                    <img src="icons/arrow_right_dark.png" alt="arrow-left" class="carousel__btn-img">
->>>>>>> 126d58a93e6d703dd8305c7ff9e990877953227b
                 </button>
             </div>
         </div>
