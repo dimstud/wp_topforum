@@ -34,7 +34,7 @@
                     <div class="promo__img-out">
                         <img src="<?php echo bloginfo('template_url');?>/assets/img/index/main_1.png" alt="Sponsors" class="promo__img">
                     </div>
-                    <h3 class="promo__subtitle">FOR FUTURE SPONSORS AND EXHIBITORS</h3>
+                    <h3 class="promo__subtitle"><?php the_field('promo_title'); ?></h3>
                     <p class="promo__descr">
                         <span>TOP FORUM</span> conferences are the best route to raise brand awareness, get pre- and after-event promotion among your target audience, confirm the highest level of your business, present your company services and catch
                         the interest of highly qualified prospects and as a result to find new clients

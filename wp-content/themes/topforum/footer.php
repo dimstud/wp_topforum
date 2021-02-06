@@ -22,7 +22,7 @@
                     <h4 class="footer__subtitle">CONTACT</h4>
                     <a href="#" class="contact__link">Top Forum Group</a>
                     <address class="contact__address">Trnavska cesta 82, 821 02 Bratislava, Slovakia</address>
-                    <a class="contact__tel" href="<?php the_field('tel', 2) ?>"><?php the_field('tel', 2) ?></a>
+                    <a class="contact__tel" href="<?php the_field('tel', 2); ?>"><?php the_field('tel', 2); ?></a>
                     <a class="contact__mail" href="<?php the_field('mail', 2); ?>"><?php the_field('mail', 2); ?></a>
                 </div>
                 <div class="footer__follow">
